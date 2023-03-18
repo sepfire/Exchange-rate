@@ -32,11 +32,11 @@ function App() {
         <div>
           <label>Eur: </label>&nbsp;
           <input type="number" step='0.01' value={eur} onChange={e => setEur(e.target.value)}></input>
-          <output>{rate}</output>
+          <output> exchange rate 1€ = {rate} Gbp</output>
         </div>
         <div>
           <label>Gbp: </label>
-          <output>{gbp.toFixed(2)} €</output>
+          <output>{gbp.toFixed(2)} £</output>
         </div>
         <div>
           <button>Laske</button>
